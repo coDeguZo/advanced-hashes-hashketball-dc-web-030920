@@ -281,7 +281,7 @@ def long_name_steals_a_ton?
     end
   end
   if player_hash.key(player_hash.values.max)
-    puts true
+    true
   end
 end
     
