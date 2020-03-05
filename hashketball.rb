@@ -268,7 +268,7 @@ end
 
 def long_name_steals_a_ton?
   game_hash..values.each do |data|
-    
+    binding.pry
   end
 end
     
