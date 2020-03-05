@@ -269,11 +269,8 @@ end
 def long_name_steals_a_ton?
   steals = {}
   game_hash.values.each do |data|
-    if data == :players
-      data.each do |players|
-        binding.pry
-      end
-    end
+    data[:players].each do |players|
+      binding.pry
   end
 end
     
