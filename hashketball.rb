@@ -271,7 +271,7 @@ def long_name_steals_a_ton?
   game_hash.values.each do |data|
     data[:players].each do |innerdata|
       steals[innerdata[:player_name]] = innerdata[:steals]
-      
+      binding.pry
     end
   end
 end
