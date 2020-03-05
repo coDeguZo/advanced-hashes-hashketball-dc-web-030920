@@ -267,7 +267,10 @@ def player_with_longest_name
 end
 
 def long_name_steals_a_ton?
-  game_hash.each do |home_away, data|
+  game_hash..values.each do |data|
+    
+  end
+end
     
   
   
